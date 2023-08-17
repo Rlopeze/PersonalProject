@@ -1,11 +1,13 @@
+import { NavBar } from "./Components/";
+import { Home } from "./Pages";
+
 const App = (): JSX.Element => {
-
   return (
-    <div>
-      Hello World
-    </div>
-  )
-}
+    <>
+      <NavBar />
+      <Home />
+    </>
+  );
+};
 
-
-export default App
+export default App;
